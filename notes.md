@@ -61,3 +61,18 @@ we cannot use command to initialize a repo on github or gitlab; we need to do ha
 	4- push local commits: git push -u
 	5- if it fails: you have to set uptream repo
 ## Branches
+- Create a new branch from main:
+
+		from the main branch : 
+			git checkout -b _newbranch
+
+- point remote branch:
+	
+		from the local new_branch : 
+			git <action(can be push or ...)> set-uptream origin _bran_to_point 
+
+- Get a commit from another branch
+		
+		1- you have to get the __commit_id
+		2- checkout(switch) to the destination branch
+		3- git cherry-pick __commit_id
