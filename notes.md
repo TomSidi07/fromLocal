@@ -76,3 +76,14 @@ we cannot use command to initialize a repo on github or gitlab; we need to do ha
 		1- you have to get the __commit_id
 		2- checkout(switch) to the destination branch
 		3- git cherry-pick __commit_id
+## setting up ssh
+
+	1- cd /.ssh
+
+	2- generate ssh key: 
+		ssh-keygen -t rsa -b 4096
+
+	3- press enter enter enter
+
+	4- config your ssh key in github settings/ssh key
+
