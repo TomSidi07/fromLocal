@@ -87,3 +87,10 @@ we cannot use command to initialize a repo on github or gitlab; we need to do ha
 
 	4- config your ssh key in github settings/ssh key
 
+## changing the remote url of an repo:
+
+	1- locate the config file under the url property with: git config --edit
+
+	2- cli:
+		git remote set-url origin <url>
+	3- check the changes cli step(1)
